@@ -76,8 +76,8 @@ if menu_id == "Home":
 # Splitting page into 2 columns
     col1, col2 = st.columns([1,2])
     with col1:
-        image = Image.open("pic1.png")
-    # Display the image in the dashboard
+         = .open("pic1.png")
+    # Display the  in the dashboard
         st.image(image)
 
     with col2:
@@ -309,7 +309,7 @@ if menu_id == "Analyses":
 
   with col2:  
     st.markdown("")
-    image = Image.open("C:\\Users\\Acer\\Desktop\\AUB\\Summer 23\\Healthcare\\Individual project\\pic4.png")
+    image = Image.open("pic4.png")
     # Display the image in the dashboard
     st.image(image)  
 # Conlusion page
@@ -319,7 +319,7 @@ if menu_id == "Conlusion":
    # Splitting page into 2 columns
     col1, col2,col3 = st.columns([3,3,3])
     with col1:
-      image = Image.open("C:\\Users\\Acer\\Desktop\\AUB\\Summer 23\\Healthcare\\Individual project\\heart.png")
+      image = Image.open("heart.png")
     # Display the image in the dashboard
       st.image(image)   
     with col2:
@@ -340,7 +340,7 @@ if menu_id == "Conlusion":
       st.markdown(" ")
       st.markdown(" ")
     with col3:
-      image = Image.open("C:\\Users\\Acer\\Desktop\\AUB\\Summer 23\\Healthcare\\Individual project\\pic2.png")
+      image = Image.open("pic2.png")
     # Display the image in the dashboard
       st.image(image)   
 
