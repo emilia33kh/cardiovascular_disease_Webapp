@@ -16,6 +16,12 @@ import statsmodels.api as sm
 import sklearn
 from PIL import Image
 import matplotlib.pyplot as plt
+
+
+
+url = "https://github.com/emilia33kh/test1/blob/main/data_ha.csv"
+data_ha = pd.read_csv(url)
+
 data_ha = pd.read_csv("C:\\Users\\Acer\\Desktop\\data_ha.csv")
 # Set Page Icon,Title, and Layout
 st.set_page_config(layout="wide",  page_title = "Cardiovascular Disease")
