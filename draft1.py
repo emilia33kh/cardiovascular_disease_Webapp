@@ -76,7 +76,7 @@ if menu_id == "Home":
 # Splitting page into 2 columns
     col1, col2 = st.columns([1,2])
     with col1:
-        image = Image.open("C:\\Users\\Acer\\Desktop\\AUB\\Summer 23\\Healthcare\\Individual project\\pic1.png")
+        image = Image.open("pic1.png")
     # Display the image in the dashboard
         st.image(image)
 
